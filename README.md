@@ -1,14 +1,18 @@
-# SR-FLIPFLOP-USING-CASE
+# NAME : SHREYESHKAR SEKAR 
+# REFERENCE NUMBER : 24900622
 
-**AIM:**
+
+# EX 6 : SR-FLIPFLOP-USING-CASE
+
+## AIM:
 
 To implement  SR flipflop using verilog and validating their functionality using their functional tables
 
-**SOFTWARE REQUIRED:**
+## SOFTWARE REQUIRED:
 
 Quartus prime
 
-**THEORY**
+## THEORY
 
 SR Flip-Flop SR flip-flop operates with only positive clock transitions or negative clock transitions. Whereas, SR latch operates with enable signal. The circuit diagram of SR flip-flop is shown in the following figure.
 
@@ -32,17 +36,43 @@ By using three variable K-Map, we can get the simplified expression for next sta
  
 The maximum possible groupings of adjacent ones are already shown in the figure. Therefore, the simplified expression for next state Qt+1t+1 is Q(t+1)=S+R′Q(t)Q(t+1)=S+R′Q(t)
 
-**Procedure**
+## Procedure
 
-/* write all the steps invloved */
+/* 
+1.	Type the program in Quartus software.
 
-**PROGRAM**
+2.	Compile and run the program.
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
+3.	Generate the RTL schematic and save the logic diagram.
+
+4.	Create nodes for inputs and outputs to generate the timing diagram.
+
+5.	For different input combinations generate the timing diagram. 
 */
 
-**RTL LOGIC FOR FLIPFLOPS**
+## PROGRAM
 
-**TIMING DIGRAMS FOR FLIP FLOPS**
+/* Program for flipflops and verify its truth table in quartus using Verilog programming.*/
+![SR FF CODE](https://github.com/user-attachments/assets/d7787da1-ab80-4943-9a5b-8580e8594172)
 
-**RESULTS**
+
+
+## RTL
+
+![SR FF DIAGRAM](https://github.com/user-attachments/assets/5bcefc71-8d38-4564-bacd-d2bd77e2e9db)
+
+
+
+
+
+## TIMING DIGRAMS FOR FLIP FLOPS
+
+![SR FF OUT](https://github.com/user-attachments/assets/4ccdb3b5-693c-4d12-8531-6f98a169abec)
+
+
+
+## RESULTS
+
+SR flipflop implemented successfully using verilog and validating their functionality using their functional tables.
+
+
